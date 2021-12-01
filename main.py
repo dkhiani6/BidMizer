@@ -10,9 +10,9 @@ current_directory = os.getcwd()
 app = Flask(__name__)
 locale.setlocale(locale.LC_ALL, 'en_CA.UTF-8')
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Password@123$'
+app.config['MYSQL_HOST'] = 'us-cdbr-east-04.cleardb.com'
+app.config['MYSQL_USER'] = 'b95d910e52bbd2'
+app.config['MYSQL_PASSWORD'] = 'f81c2328'
 app.config['MYSQL_DB'] = 'BidMizer'
 mysql = MySQL(app)
 
